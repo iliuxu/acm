@@ -1,0 +1,22 @@
+{
+    "name": "iliuxu/acm",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iliuxu\\Acm\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuxu",
+            "email": "imliuxu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
