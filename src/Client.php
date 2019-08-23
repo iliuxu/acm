@@ -77,7 +77,7 @@ class Client
         $this->server  = [];
         $serverStr = $this->getServerStr();
         if (is_string($serverStr)) {
-            $server = explode('\n', $serverStr);
+            $server = explode("\n", $serverStr);
             $server = array_filter($server);
             foreach ($server as $value) {
                 $value = trim($value);
